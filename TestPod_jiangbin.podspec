@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TestPod_jiangbin"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A short description of HelloWorld."
 
   # This description is used to generate tags and improve search results.
@@ -89,10 +89,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Tools"
+  #spec.source_files  = "Tools"
   # spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "Tools/*.h"
+  #spec.public_header_files = "Tools/*.h"
   
   spec.subspec 'Tools' do |ss|
   ss.source_files = 'Tools/*.{h,m}'
